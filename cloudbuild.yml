@@ -1,10 +1,10 @@
 steps:
-- name: "echo from bash"
+- name: echo
   script: |
     #!/usr/bin/env bash
     echo "Hello World from bash"
 
-- name: "Shell example"
+- name: 'Shell example'
   shell: echo "Shell is working"
 
 - name: "echo from python"
